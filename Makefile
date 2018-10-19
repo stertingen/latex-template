@@ -44,7 +44,7 @@ DOC_BASE     = $(DOC_TEX:.tex=)
 DOC_CLEAN    = $(DOC_PDF)									\
                $(DOC_BASE).{aux,log,toc,bcf,bbl,blg,ltf,brf,out} \
 			   $(DOC_BASE).{lof,nav,snm,acn,glo,ist,lot,run.xml} \
-			   $(DOC_BASE).{synctex,synctex.gz} \
+			   $(DOC_BASE).{tdo,synctex,synctex.gz} \
                $(DOC_TXT) $(DOC_TXT_ADD) \
                *~
 
